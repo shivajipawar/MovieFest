@@ -9,7 +9,7 @@ import Foundation
 
 enum API {
     static let baseURL = "https://api.themoviedb.org/3"
-    static let apiKey = "93d33998099812f88a57c27a3fa05551"
+    static let apiKey = "REPLACE_ME"
 }
 
 enum MovieServiceType {
