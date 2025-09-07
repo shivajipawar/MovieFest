@@ -1,4 +1,5 @@
-# 🎬 MovieFest
+# MovieFest
+# MovieFest – iOS application with Clean architecture + SPM
 
 MovieFest is an iOS application built with **SwiftUI** and **Xcode 14.2**, showcasing integration with **TheMovieDB API** for fetching popular movies.  
 It demonstrates clean architecture, networking with **URLSession** & **Alamofire (via SPM)**, **async/await continuation**, and **dependency injection** for flexible service management.  
