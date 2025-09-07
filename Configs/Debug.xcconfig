@@ -7,4 +7,4 @@
 
 // Configuration settings file format documentation can be found at:
 API_KEY = 93d33998099812f88a57c27a3fa05551
-PRODUCT_BUNDLE_IDENTIFIER = com.company.MovieFest.dev
+PRODUCT_BUNDLE_IDENTIFIER = com.study.MovieFest
