@@ -1,0 +1,10 @@
+git_url("https://github.com/shivajipawar/fastlane-certs.git")
+
+storage_mode("git")
+
+app_identifier("com.study.MovieFest")
+
+username("shivajinpawar@gmail.com") # Your Apple Developer Portal username
+team_id("UNFF3GPK6K") # Replace with your Apple Developer Team ID
+type("development") # The default type, can be: appstore, adhoc, enterprise or development
+readonly(false)     # set to true in CI to avoid creating new certs

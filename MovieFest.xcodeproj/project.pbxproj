@@ -72,8 +72,6 @@
 		F7F130E62E6D4F2F000A33A5 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		F7F130EA2E6D8696000A33A5 /* CachedAsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CachedAsyncImage.swift; sourceTree = "<group>"; };
 		F7F130F52E6DBCF9000A33A5 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
-		F7F130F62E6DBD17000A33A5 /* Staging.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Staging.xcconfig; sourceTree = "<group>"; };
-		F7F130F72E6DBD27000A33A5 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,8 +105,6 @@
 			isa = PBXGroup;
 			children = (
 				F7F130F52E6DBCF9000A33A5 /* Debug.xcconfig */,
-				F7F130F62E6DBD17000A33A5 /* Staging.xcconfig */,
-				F7F130F72E6DBD27000A33A5 /* Release.xcconfig */,
 			);
 			path = Configs;
 			sourceTree = "<group>";
@@ -482,7 +478,6 @@
 		};
 		F7EB18712E6D34A600920A77 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F7F130F72E6DBD27000A33A5 /* Release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -569,7 +564,6 @@
 		};
 		F7EB18742E6D34A600920A77 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F7F130F72E6DBD27000A33A5 /* Release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -606,6 +600,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UNFF3GPK6K;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MARKETING_VERSION = 1.0;
@@ -625,6 +620,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UNFF3GPK6K;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MARKETING_VERSION = 1.0;
@@ -673,7 +669,6 @@
 		};
 		F7F130F82E6DBDB2000A33A5 /* Staging */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F7F130F62E6DBD17000A33A5 /* Staging.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -734,7 +729,6 @@
 		};
 		F7F130F92E6DBDB2000A33A5 /* Staging */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F7F130F62E6DBD17000A33A5 /* Staging.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -771,6 +765,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UNFF3GPK6K;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MARKETING_VERSION = 1.0;
